@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+/* Navigation */
 .navigation{
     z-index: 2;
     background-color: white;
@@ -20,7 +21,7 @@
     background-color: #021DF3;
 }
 
-a{
+.anchs{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -50,7 +51,6 @@ li{
 
 #logo{
     width: 20vh;
-    height: auto;
 }
 
 h1{
@@ -58,6 +58,7 @@ h1{
     font-family: 'Raleway', sans-serif;
 }
 
+/* Home */
 .home{
     margin: 10px 50px 0 50px;
     display: grid;
@@ -188,4 +189,128 @@ h1{
     border-radius: 8px;
     width: auto;
     background-color: #021DF3;
+}
+
+/* Contact */
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ECF2FE;
+}
+.right-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 15%;
+}
+.title-contact{
+    color: #333333;
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 80px;
+}
+
+.inpt-contnr{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.inpt-contnr > label{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+.inpt-contnr > textarea{
+    width: auto;
+    height: 150px;
+}
+.inpt-contct{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    padding: 20px;
+}
+
+.left-contact{
+    background-color: #021DF3;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-contact > img{
+    width: 70px;
+}
+
+/* Footer */
+.footer{
+    margin-top: 2%;
+    border-top: solid 1px #999999;
+    padding-top: 5%;
+}
+.top-footer{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1.5fr;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 5%;
+}
+.ftr-links{
+    margin: 20px 0px;
+}
+.ftr-links > a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.title-ftr{
+    color: #021DF3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.socmed-ftr{
+    margin-right: 35%;
+}
+.socmed-logos{
+    display: flex;
+    flex-direction: row;
+}
+.logos{
+    margin-top: 10px;
+    width: 50px;
+}
+#center-logo{
+    margin: 0px 10px;
+}
+
+.bot-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2% 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: #021DF3;
+}
+#center-ftr{
+    margin: 0px 20px;
+}
+.cont-ftr{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cont-ftr > img{
+    height: 25px;
+    margin-right: 15px;
+}
+.cont-ftr > p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
 }
